@@ -176,8 +176,8 @@
 <text x="63.754" y="19.3548" size="1.016" layer="21">3.3V</text>
 <text x="63.7032" y="16.764" size="1.016" layer="21">Reset</text>
 <text x="63.5762" y="13.9446" size="1.016" layer="21">Factory</text>
-<text x="63.6016" y="11.3284" size="1.016" layer="21">TXD2</text>
-<text x="63.6778" y="8.8646" size="1.016" layer="21">RXD2</text>
+<text x="63.6016" y="11.3284" size="1.016" layer="21">TXD</text>
+<text x="63.6778" y="8.8646" size="1.016" layer="21">RXD</text>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -2227,9 +2227,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="90.6018" y="4.3942" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="95.6056" y="4.4704" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RFDUINO" library="RF_Digital_RFD22102_Eagle_Schematic_PCB_Library" package="RFD22102" value="BLE" x="71.8058" y="21.8186" smashed="yes">
+<element name="RFDUINO" library="RF_Digital_RFD22102_Eagle_Schematic_PCB_Library" package="RFD22102" value="RFDUINO_BLE" x="71.8058" y="21.8186" smashed="yes">
 <attribute name="NAME" x="70.6882" y="11.0998" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="75.9714" y="14.351" size="1.778" layer="27" rot="R90"/>
+<attribute name="VALUE" x="60.8838" y="4.2926" size="1.778" layer="27"/>
 </element>
 </elements>
 <signals>
